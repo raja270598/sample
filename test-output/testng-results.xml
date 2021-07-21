@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-15T16:57:55Z" name="Suite" finished-at="2021-07-15T16:57:55Z" duration-ms="38">
+    <groups>
+      <group name="@smoke">
+        <method signature="Grouping.test1()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" name="test1" class="org.hwork.Grouping"/>
+        <method signature="Grouping.test4()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" name="test4" class="org.hwork.Grouping"/>
+      </group> <!-- @smoke -->
+      <group name="@reg">
+        <method signature="Grouping.test3()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" name="test3" class="org.hwork.Grouping"/>
+        <method signature="Grouping.test6()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" name="test6" class="org.hwork.Grouping"/>
+      </group> <!-- @reg -->
+    </groups>
+    <test started-at="2021-07-15T16:57:55Z" name="Test" finished-at="2021-07-15T16:57:55Z" duration-ms="38">
+      <class name="org.hwork.Grouping">
+        <test-method signature="test1()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" started-at="2021-07-15T16:57:55Z" name="test1" finished-at="2021-07-15T16:57:55Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test4()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" started-at="2021-07-15T16:57:55Z" name="test4" finished-at="2021-07-15T16:57:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test6()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" started-at="2021-07-15T16:57:55Z" name="test6" finished-at="2021-07-15T16:57:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test3()[pri:0, instance:org.hwork.Grouping@7e19ebf0]" started-at="2021-07-15T16:57:55Z" name="test3" depends-on-groups="@smoke" finished-at="2021-07-15T16:57:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- org.hwork.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

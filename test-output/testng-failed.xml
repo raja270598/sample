@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="12345678"/>
+    <parameter name="search" value="Submit"/>
+    <parameter name="hotels" value="Hotel Cornice"/>
+    <parameter name="location" value="London"/>
+    <parameter name="datepick_in" value="15/07/2021"/>
+    <parameter name="datepick_out" value="21/07/2021"/>
+    <parameter name="login" value="Login"/>
+    <parameter name="room_nos" value="2"/>
+    <parameter name="username" value="raja2798"/>
+    <parameter name="room_type" value="Double"/>
+    <classes>
+      <class name="org.hwork.WorkOut">
+        <methods>
+          <include name="before"/>
+          <include name="t10"/>
+          <include name="t6" invocation-numbers="0"/>
+          <include name="t12" invocation-numbers="0"/>
+          <include name="t5"/>
+        </methods>
+      </class> <!-- org.hwork.WorkOut -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
